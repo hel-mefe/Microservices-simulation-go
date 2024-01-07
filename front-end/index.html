@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Microservices simulation in go</title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="app app-container">
+            <h1>Microservices simulation</h1>
+            <div class="services-container">
+                <div class="service" id="auth-clickable">
+                    <span>Auth service</span>
+                </div>
+                <div class="service" id="mail-clickable">
+                    <span>Mail service</span>
+                </div>
+                <div class="service" id="logger-clickable">
+                    <span>Logger service</span>
+                </div>
+                <div class="service" id="broker-clickable">
+                    <span>Broker service</span>
+                </div>
+                <div class="service" id="grpc-clickable">
+                    <span>gRPC messages</span>
+                </div>
+            </div>
+            <div class="body-container">
+                <h2 class="informer-headline">Output</h2>
+                <div class="output-container" id="output">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor culpa magni architecto, iusto minus accusantium voluptatem explicabo ad provident vero sit enim odit, rem atque cum omnis. Tempora, debitis ab.</p>
+                </div>
+                <div class="sent-received-container">
+                    <div class="sent-container">
+                        <h2 class="informer-headline">Sent</h2>
+                        <div class="box-container" id="sent">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor culpa magni architecto, iusto minus accusantium voluptatem explicabo ad provident vero sit enim odit, rem atque cum omnis. Tempora, debitis ab.</p>
+                        </div>
+                    </div>
+                    <div class="received-container">
+                        <h2 class="informer-headline">Received</h2>
+                        <div class="box-container" id="received">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor culpa magni architecto, iusto minus accusantium voluptatem explicabo ad provident vero sit enim odit, rem atque cum omnis. Tempora, debitis ab.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
