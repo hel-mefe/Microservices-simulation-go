@@ -1,0 +1,74 @@
+.app-container .services-container .service {
+    cursor: pointer ;
+    background-color: #555;
+    color: white ;
+    font-size: 18px ;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    width: 240px ;
+    height: 30px ;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 500;
+    height: 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 ;
+    transition: 0.15s ease-in-out ;
+}
+
+
+.app-container .services-container .service:hover {
+    /* background-color: purple; */
+    background: none ;
+    outline: 2px #555 solid ;
+}
+
+
+.app-container .services-container .service span {
+    cursor: pointer ;
+    padding: 10px ;
+}
+
+
+.app-container .body-container {
+    margin-top: 50px ;
+    font-size: 16px ;
+}
+
+.informer-headline {
+    font-size: 24px;
+    color: white ;
+}
+
+
+.app-container .body-container .output-container {
+    background-color: #666;
+    height: 200px ;
+    color: #fff ;
+    padding: 20px ;
+    padding-bottom: 20px ;
+    padding-top: 1px;
+    border-radius: 3px;
+    font-size: 16px ;
+}
+
+.app-container .body-container .sent-received-container {
+    display: flex;
+    margin-top: 40px ;
+    column-gap: 50px;
+    font-size: 16px ;
+}
+
+.box-container {
+    background-color: #666;
+    height: 200px ;
+    padding-right: 80px;
+    padding-left: 20px;
+    color: #fff ;
+    padding-bottom: 20px ;
+    padding-top: 1px;
+    border-radius: 3px;
+    font-size: 16px ;
+}

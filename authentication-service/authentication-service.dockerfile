@@ -1,9 +1,7 @@
-FROM alpine:3.19.0
+FROM alpine:latest
 
 RUN mkdir /app
 
 COPY authApp /app
 
-RUN chmod +x /app/authApp
-
-CMD ["/app/authApp"]
+CMD [ "/app/authApp"]
